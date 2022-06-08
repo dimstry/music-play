@@ -6,4 +6,4 @@ Heureuy Doang
 * masih versi Beta 🗿
 
 ## 🌐
-Demo :
+Demo :https://dimstry.github.io/music-play/
