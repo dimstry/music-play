@@ -1,0 +1,50 @@
+audio {
+  width: 90%;
+  outline: none;
+  opacity: .5;
+}
+.music__info,
+.music__artis {
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 2px;
+  color: rgb(255, 2555,255);
+  font-size: 40px;
+}
+.music__artis {
+  font-weight: normal;
+  color: rgba(255,153,153,0.88);
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: black url('./img/main.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box__music {
+  background-color: rgba(255,255,255,0.248);
+  backdrop-filter: blur(3px);
+  box-shadow: rgba(85,85,85,0.1) 6px 2px 16px 0px, rgba(84,85,85,0.1) -6px -2px 16px 0px;
+  width: 300px;
+  position: relative;
+  margin-top: -50px;
+  z-index: 100;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.music__cover>img {
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 6px 2px 16px rgba(136,136,136,0.507);
+}
