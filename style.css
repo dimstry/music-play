@@ -48,3 +48,19 @@ body {
   border-radius: 10px;
   box-shadow: 6px 2px 16px rgba(136,136,136,0.507);
 }
+/* update v 2 */
+.tools {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+#pause_button {
+  display: none;
+}
+
+i {
+  font-size: 60px;
+  color: rgba(0,0,0,0.531);
+  align-items: center;
+}

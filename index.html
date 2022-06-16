@@ -6,13 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Music</title>
   <link rel="stylesheet" href="./style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
   <div class="box__music">
     <div class="music__cover">
       <img src="./img/cover/bombayah.jpg" alt="">
     </div>
-    <audio controls>
+    <div class="tools">
+      <i class='bx bx-chevron-left'></i>
+      <span id="play_button">
+        <i class='bx bx-play' id="play"></i>
+      </span>
+      <span id="pause_button">
+        <i class='bx bx-pause' id="pause"></i>
+      </span>
+      <i class='bx bx-chevron-right'></i>
+    </div>
+    <audio id="myAudio">
       <source src="./audio/bombayah.mp3" type="audio/mpeg">
     </audio>
     <div class="music__judul">
@@ -22,5 +33,7 @@
       BlackPink
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
