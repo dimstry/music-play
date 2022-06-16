@@ -1,8 +1,12 @@
 # music-play
 Awalnya memang becanda tapi lama-lama ada niat untuk mengembangkan
-
+## use
+* HTML
+* CSS
+* JavaScript
+* * jQuery
 ## 📝
-* Hanya music player biasa yg pakai html dan CSS
+* Hanya music play biasa
 * masih versi beta
 
 ## 🌐
