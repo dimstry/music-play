@@ -11,5 +11,3 @@ $('#pause_button').on('click', function() {
   $('#play_button').css("display", "block");
   x.pause();
 });
-
-console.log(x.value)
